@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+	<TableRow 
+	    android:id="@+id/tableRow1"
+	    android:layout_width="wrap_content"
+		android:layout_height="wrap_content">
+			<TextView
+			    android:textAppearance="?android:attr/textAppearanceLarge"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:width="250dip"
+				android:paddingLeft="30dip"
+				android:id="@+id/labelSonido"
+				android:text="@string/sonidoMenu">
+			</TextView>
+			<CheckBox
+			    android:layout_width="wrap_content"
+			    android:id="@+id/checkBoxSonido"
+				android:layout_height="wrap_content"
+				android:checked="true">
+			</CheckBox>
+	</TableRow>
+	<TableRow
+	    android:id="@+id/tableRow2"
+	    android:layout_width="wrap_content"
+		android:layout_height="wrap_content">
+		<TextView
+		    android:textAppearance="?android:attr/textAppearanceLarge"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:paddingLeft="30dip"
+			android:id="@+id/labelVibracion"
+			android:text="@string/vibracionMenu">
+		</TextView>
+		<CheckBox
+		    android:layout_width="wrap_content"
+		    android:id="@+id/checkBoxVibracion"
+			android:layout_height="wrap_content"
+			android:checked="true">
+		</CheckBox>
+</TableRow>
+    
+
+</TableLayout>
