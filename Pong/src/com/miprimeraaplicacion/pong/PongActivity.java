@@ -20,6 +20,7 @@ public class PongActivity extends Activity {
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
         setContentView(R.layout.activity_pong);
         
+        //Soy un tio chachi que te cagas
         TextView play = (TextView)findViewById(R.id.play_button);
         play.setOnTouchListener(
         	new OnTouchListener() {
